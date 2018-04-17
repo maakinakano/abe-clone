@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+}
+.menu{
+    width: 17%;
+    float: left;
+    background-color: lavender;
+}
+.main{
+    width: 83%;
+    float: right;
+    margin-top: 20px;
+    background-image: url("abe-bg.jpg");
+}
+.main .prof{
+    font-size: 17px;
+    width: 351px;
+    float: left;
+}
+.main .prof .bio #content{
+    margin-left: 115px;
+    margin-bottom: 50px;
+}
+.main .prof .bio img{
+    margin-left: 95px;
+    margin-bottom: 25px;
+}
+.main .prof .profs{
+    margin-left: 100px;    
+}
+.main .news{
+    margin-left: 350px;
+    margin-right: 60px;
+}
+.main .news ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+ul #films{
+    list-style: none;
+    font-weight: bold;
+}
+ul #films li{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+}
