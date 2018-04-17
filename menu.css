@@ -7,6 +7,47 @@ body{
     height: 90%;
 }
 
+.menu ul {
+    margin-top: 50px;    
+}
 .menu ul li{
-    margin-top: 15px;
+    margin-left: -10px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.menu ul li::before{
+    position: relative;
+    top: 0px;
+    left: -5px;
+
+    display: inline-block;
+
+    width: 14px;
+    height: 14px;
+
+    content: '';
+    border-radius: 100%;
+}
+
+.menu ul li#top::before{
+    background: lightpink;
+}
+.menu ul li#film::before{
+    background: lightgreen;
+}
+.menu ul li#doram::before{
+    background: skyblue;
+}
+.menu ul li#act::before{
+    background: steelblue;
+}
+.menu ul li#photo::before{
+    background: blue;
+}
+.menu ul li#book::before{
+    background: darkblue;
+}
+.menu ul li#admin::before{
+    background: purple;
 }
